@@ -1,0 +1,39 @@
+{
+  "name": "cr8bot",
+  "version": "0.0.2",
+  "description": "bot for getting informations about your git actions",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "botkit": "^0.5.3",
+    "dashbot": "^0.8.6",
+    "debug": "^2.6.6",
+    "express": "^4.15.2",
+    "node-env-file": "^0.1.8",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0",
+    "wordfilter": "^0.2.6",
+    "node-crate": "^2.0.1",
+    "twitter": "^1.7.0",
+    "giphy-api": "^1.2.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "bot",
+    "crate.io",
+    "watson",
+    "oscon"
+  ],
+  "author": "toms.vogel@github.com",
+  "license": "ISC",
+  "engines": {
+    "node": "7.7.3"
+  }
+}
